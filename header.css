@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+hearder {
+    font-family: "Lobster Two", sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem;
+    
+    background-color: black;
+    text-shadow: 1px 1px 1px #8b0000;        
+}
+
+.nome {
+    padding-left: 10px;
+    font-size: 15px;    
+}
+
+.ico {
+    font-size: larger;    
+}
+
+.menu ul {
+    display: flex;    
+}
+
+.item-menu {    
+    margin: 0 15px;
+    padding: 17px 0px;
+    list-style: none;      
+}
+
+.link-menu {
+    
+    text-decoration: none;
+    color: #8b0000;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-right: 15px;   
+}
+
+.link-menu:hover {
+    color: #FFC107;
+    transition-duration: 0.2s;
+}
+
+.botao-menu {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {    
+    .item-menu {
+        display: none;
+    }
+
+    .botao-menu  {
+        display: block;        
+    }
+
+    .botao-menu button {       
+        background-color: transparent;        
+        border: none;
+        cursor: pointer;           
+    }
+
+    .mobile-menu {
+        background-color: #18191d;    
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .item-menu {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .ico1 {
+        color: #8b0000;
+        font-size: 40px;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+
+    .open {
+        display: block;
+    }
+
+    @media screen and (max-width: 650px) {
+
+        header, #fundo {    
+            background-size: 700px;
+            background-size: contain;
+            background-position: top;
+            background-attachment: scroll;
+            background-color: rgb(11, 38, 243);
+        }
+    }
+}
