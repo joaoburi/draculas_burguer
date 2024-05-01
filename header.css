@@ -2,16 +2,18 @@
 
 header {
     font-family: "Lobster Two", sans-serif;
-    
+    position: fixed;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
-    padding: 1.3rem;
+    padding: 1.3rem 6.5rem;
     
     background-color: black;
-    text-shadow: 1px 1px 1px #8b0000;        
+    text-shadow: 1px 1px 1px #8b0000;
+    
+    
 }
 
 .nome {
@@ -21,6 +23,10 @@ header nav {
 
 .ico {
     font-size: larger;    
+}
+
+.menu {
+
 }
 
 .menu ul {

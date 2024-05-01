@@ -14,8 +14,6 @@ branco letra
 
 #FFC107 amarelo
 
-#18191d cinza
-
 #8b0000 dark red
 
 font-family: "Cormorant Garamond", serif;
@@ -24,6 +22,7 @@ font-family: "Lobster Two", sans-serif;
 */
 body {  
     color: #8b0000;
+    background-color: blueviolet;
 }
 
 
