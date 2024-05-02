@@ -3,12 +3,14 @@
 header {
     font-family: "Lobster Two", sans-serif;
     position: fixed;
+    width: 100%;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
-    padding: 1.3rem 6.5rem;
+    padding: 1.3rem;
+    
     
     background-color: black;
     text-shadow: 1px 1px 1px #8b0000;
@@ -26,7 +28,7 @@ header nav {
 }
 
 .menu {
-
+    
 }
 
 .menu ul {
