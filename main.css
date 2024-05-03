@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#fundo {
+#imagem-fundo {
     height: 100vh;
     
     background-image: url(imagens/pexels1.jpg);
@@ -17,17 +17,34 @@ main {
     color: white;   
   }
   
-main section h2 {
+#imagem-fundo {
+    display: flex;    
+}  
+
+#imagem-fundo h2 {
     font-size: 40px;
     padding: 200px 50px;   
 }
 
-#fundo {
-    display: flex;    
+#atrativos {
+    
+    width: 100%;
+    position: absolute;
+    column-count: 4;
+    top: 85%;
+    
+    
 }
 
-main section h3 {
-       
+#atrativos h3 {     
+    background-color: #FFC107;
+    height: 150px;
+    margin: 0px 10px;
 
-    
+    text-align: center;
+    padding: 20px;
+}
+
+#sobre {
+    padding-top: 100px;
 }
