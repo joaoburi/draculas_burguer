@@ -2,11 +2,15 @@
 
 header {
     font-family: "Lobster Two", sans-serif;
-    position: fixed;
-    width: 100%;
+    
+    
+    
 }
 
 header nav {
+    width: 100%;
+    position: fixed;
+
     display: flex;
     justify-content: space-between;
     padding: 1.3rem;
@@ -26,7 +30,7 @@ header nav {
 }
 
 .menu {
-    
+    padding-right: 20px;
 }
 
 .menu ul {
@@ -61,7 +65,23 @@ header nav {
     display: none;
 }
 
+#imagem-fundo {
+    
+    height: 100vh;
+    background-image: url(imagens/pexels1.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+    
+    display: flex;
+}
 
+#imagem-fundo h2 {
+    font-size: 40px;
+    padding: 250px 150px;   
+    text-shadow: 1px 1px 1px black;
+}
 
 @media screen and (max-width: 850px) {    
     .item-menu {
@@ -69,7 +89,8 @@ header nav {
     }
 
     .botao-menu  {
-        display: block;        
+        display: block;
+        padding-right: 30px;        
     }
 
     .botao-menu button {       
