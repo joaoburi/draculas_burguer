@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 #imagem-fundo {
     height: 100vh;
     
@@ -7,10 +8,22 @@
     background-position: center right;
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;       
+    background-repeat: no-repeat;     
+}
+
+#imagem-fundo {
+    display: flex;    
+    
+}  
+
+#imagem-fundo h2 {
+    font-size: 40px;
+    padding: 250px 100px;   
+    text-shadow: 1px 1px 1px black;
 }
 
 main {
+    height: 100px;
     margin: 0px 85px;
     font-family: "Prompt", sans-serif;
     font-weight: 700;

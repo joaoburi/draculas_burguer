@@ -61,15 +61,7 @@ header nav {
     display: none;
 }
 
-#imagem-fundo {
-    display: flex;    
-}  
 
-#imagem-fundo h2 {
-    font-size: 40px;
-    padding: 250px 100px;   
-    text-shadow: 1px 1px 1px black;
-}
 
 @media screen and (max-width: 850px) {    
     .item-menu {
