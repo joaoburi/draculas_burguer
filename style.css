@@ -19,10 +19,13 @@ branco letra
 font-family: "Cormorant Garamond", serif;
 
 font-family: "Lobster Two", sans-serif;
+
+margin: 0px 85px; AO REDOR DO CONTEUDO - Nao aplicar na imagem nem no header
 */
 body {  
-    color: #8b0000;
-    background-color: blueviolet;
+    color: white;
+    background-color: black;
+    
 }
 
 

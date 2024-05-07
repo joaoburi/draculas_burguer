@@ -10,17 +10,15 @@ header nav {
     display: flex;
     justify-content: space-between;
     padding: 1.3rem;
-    
-    
+        
     background-color: black;
-    text-shadow: 1px 1px 1px #8b0000;
-    
-    
+    text-shadow: 1px 1px 1px #8b0000;     
 }
 
 .nome {
     padding-left: 10px;
     font-size: 15px;    
+    color: #8b0000;
 }
 
 .ico {
@@ -61,6 +59,16 @@ header nav {
 
 .mobile-menu {
     display: none;
+}
+
+#imagem-fundo {
+    display: flex;    
+}  
+
+#imagem-fundo h2 {
+    font-size: 40px;
+    padding: 250px 100px;   
+    text-shadow: 1px 1px 1px black;
 }
 
 @media screen and (max-width: 850px) {    

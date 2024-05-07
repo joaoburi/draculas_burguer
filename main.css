@@ -11,20 +11,13 @@
 }
 
 main {
+    margin: 0px 85px;
     font-family: "Prompt", sans-serif;
     font-weight: 700;
     font-style: italic;     
     color: white;   
   }
   
-#imagem-fundo {
-    display: flex;    
-}  
-
-#imagem-fundo h2 {
-    font-size: 40px;
-    padding: 200px 50px;   
-}
 
 #atrativos {
     
@@ -41,8 +34,23 @@ main {
     height: 150px;
     margin: 0px 10px;
 
+    
     text-align: center;
+    font-size: 24px;
     padding: 20px;
+    border-radius: 10px;
+    
+}
+
+#atrativos h3 i {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#atrativos h3 p {
+    text-shadow: 1px 1px 1px black;
 }
 
 #sobre {
