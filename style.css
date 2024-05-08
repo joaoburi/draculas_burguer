@@ -24,8 +24,9 @@ margin: 0px 85px; AO REDOR DO CONTEUDO - Nao aplicar na imagem nem no header
 */
 body {  
     color: white;
-    background-color: rgb(0, 255, 238);
+    background-color: black;
     
+    margin: 0px 10px;
 }
 
 

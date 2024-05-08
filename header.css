@@ -20,7 +20,7 @@ header nav {
 }
 
 .nome {
-    padding-left: 10px;
+    
     font-size: 15px;    
     color: #8b0000;
 }
@@ -32,6 +32,7 @@ header nav {
 .menu {
     padding-right: 20px;
 }
+
 
 .menu ul {
     display: flex;    
@@ -66,7 +67,7 @@ header nav {
 }
 
 #imagem-fundo {
-    
+    margin: 0px -10px;
     height: 100vh;
     background-image: url(imagens/pexels1.jpg);
     background-position: center right;
