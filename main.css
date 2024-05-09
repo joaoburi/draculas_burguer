@@ -12,10 +12,11 @@ main {
     font-style: italic;     
     color: white;   
     text-align: justify;
-  }
-  
+}
+
 
 #atrativos {
+    
     width: 98%;
     
     position: absolute;
@@ -31,12 +32,9 @@ main {
 }
 
 #atrativos h3 {  
-       
+    
     background-color: #FFC107;
-    height: 150px;
-    
-
-    
+    height: 150px;  
     text-align: center;
     font-size: 24px;
     padding: 20px;

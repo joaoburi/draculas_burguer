@@ -21,6 +21,51 @@ font-family: "Cormorant Garamond", serif;
 font-family: "Lobster Two", sans-serif;
 
 margin: 0px 85px; AO REDOR DO CONTEUDO - Nao aplicar na imagem nem no header
+
+@media screen and (max-width: 1220px) 
+
+
+#atrativos {
+    width: 98%;   
+    position: absolute;
+    column-count: 4;        
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, 0%);   
+}
+
+#atrativos h3 {    
+    background-color: #FFC107;
+    height: 150px;  
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 5px;    
+}
+
+#atrativos h3 i {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#atrativos h3 p {
+    text-shadow: 1px 1px 1px black;
+}
+
+
+header nav {
+    width: 100%;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem ;
+        
+    background-color: black;
+    text-shadow: 1px 1px 1px #8b0000;     
+}
 */
 body {  
     color: white;
@@ -28,6 +73,41 @@ body {
     
     margin: 0px 10px;
 }
+
+#imagem-fundo {
+    
+    margin: 0px -10px;
+    height: 100vh;
+    background-image: url(imagens/pexels1.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+    
+    display: flex;
+}
+
+#imagem-fundo h2 {
+    font-size: 40px;
+    padding: 250px 150px;   
+    text-shadow: 1px 1px 1px black;
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 10px;
+        margin: 0 auto;       
+    }
+
+    
+
+    
+}
+
+
 
 
 

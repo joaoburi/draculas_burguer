@@ -8,15 +8,17 @@ header {
 }
 
 header nav {
-    width: 100%;
+    
+    width: 100vw;
     position: fixed;
 
     display: flex;
     justify-content: space-between;
-    padding: 1.3rem;
-        
-    background-color: black;
-    text-shadow: 1px 1px 1px #8b0000;     
+    padding: 1.3rem 0;
+    margin: 0px;
+    background-color: rgb(191, 6, 211);
+    text-shadow: 1px 1px 
+    1px #8b0000;     
 }
 
 .nome {
@@ -30,12 +32,13 @@ header nav {
 }
 
 .menu {
-    padding-right: 20px;
+    
 }
 
 
 .menu ul {
-    display: flex;    
+    display: flex;  
+    padding-right: 140px;  
 }
 
 .item-menu {    
@@ -66,23 +69,6 @@ header nav {
     display: none;
 }
 
-#imagem-fundo {
-    margin: 0px -10px;
-    height: 100vh;
-    background-image: url(imagens/pexels1.jpg);
-    background-position: center right;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;  
-    
-    display: flex;
-}
-
-#imagem-fundo h2 {
-    font-size: 40px;
-    padding: 250px 150px;   
-    text-shadow: 1px 1px 1px black;
-}
 
 @media screen and (max-width: 850px) {    
     .item-menu {
