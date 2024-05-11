@@ -66,17 +66,22 @@ header nav {
     background-color: black;
     text-shadow: 1px 1px 1px #8b0000;     
 }
+
+ 
+
 */
 body {  
     color: white;
     background-color: black;
-    
-    margin: 0px 10px;
+    height: 100vh;
+    width: 100%; 
+    /*overflow-x: hidden;  rolagem horizontal */   
 }
 
 #imagem-fundo {
     
-    margin: 0px -10px;
+    width: 100%;
+    margin: 0 auto;
     height: 100vh;
     background-image: url(imagens/pexels1.jpg);
     background-position: center right;
@@ -85,7 +90,16 @@ body {
     background-repeat: no-repeat;  
     
     display: flex;
+    
 }
+
+
+
+
+
+
+
+
 
 #imagem-fundo h2 {
     font-size: 40px;
@@ -94,17 +108,13 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-    main {
+    main, footer {
         
         width: 100%;
         max-width: 1200px;
-        padding: 0 10px;
+        
         margin: 0 auto;       
-    }
-
-    
-
-    
+    }       
 }
 
 

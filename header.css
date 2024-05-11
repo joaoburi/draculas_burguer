@@ -2,21 +2,39 @@
 
 header {
     font-family: "Lobster Two", sans-serif;
+    background-color: black;  
+    
+    position: fixed;
+    height: 103px;
+    width: 100%;
     
     
     
+
+
 }
 
 header nav {
-    
-    width: 100vw;
-    position: fixed;
+    position: absolute;
 
+    
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+
+    width: 100%;
+    max-width: 1200px;
+    
+    
+
+    
+    
+    
     display: flex;
     justify-content: space-between;
-    padding: 1.3rem 0;
-    margin: 0px;
-    background-color: rgb(191, 6, 211);
+    padding: 1.3rem 0rem;
+    
+   
     text-shadow: 1px 1px 
     1px #8b0000;     
 }
@@ -25,6 +43,7 @@ header nav {
     
     font-size: 15px;    
     color: #8b0000;
+    padding-left: 10px;
 }
 
 .ico {
@@ -32,13 +51,13 @@ header nav {
 }
 
 .menu {
-    
+    padding-right: 20px;
 }
 
 
 .menu ul {
     display: flex;  
-    padding-right: 140px;  
+    
 }
 
 .item-menu {    
