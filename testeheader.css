@@ -1,16 +1,130 @@
 @charset "UTF-8";
 
+body {
+    padding-top: 103px;
+}
+
 header {
     font-family: "Lobster Two", sans-serif;
-    background-color: rgb(35, 204, 103);  
-    
+    background-color: black;  
     position: fixed;
     height: 103px;
     width: 100%;
+    top: 0;
+}
+
+header nav {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    max-width: 1200px;     
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 0rem; 
+    text-shadow: 1px 1px 
+    1px #8b0000;     
+}
+
+.nome {
     
-    
-    
+    font-size: 15px;    
+    color: #8b0000;
+    padding-left: 10px;
+}
+
+.ico {
+    font-size: larger;    
+}
+
+.menu {
+    padding-right: 10px;
+}
+
+.menu ul {
+    display: flex;   
+}
+
+.item-menu {    
+    margin-left: 30px;
+    padding: 17px 0px;
+    list-style: none;      
+}
+
+.link-menu { 
+    text-decoration: none;
+    color: #8b0000;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-right: px;   
+}
+
+.link-menu:hover {
+    color: #FFC107;
+    transition-duration: 0.2s;
+}
+
+.botao-menu {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
 
 
+@media screen and (max-width: 850px) {    
+    .item-menu {
+        display: none;
+    }
+
+    .botao-menu  {
+        display: block;
+        padding-right: 30px;        
+    }
+
+    .botao-menu button {       
+        background-color: transparent;        
+        border: none;
+        cursor: pointer;           
+    }
+
+    .mobile-menu {
+        background-color: #18191d;    
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .item-menu {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .ico1 {
+        color: #8b0000;
+        font-size: 40px;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+
+    .open {
+        display: block;
+    }
+
+    @media screen and (max-width: 650px) {
+
+        header, #fundo {    
+            background-size: 700px;
+            background-size: contain;
+            background-position: top;
+            background-attachment: scroll;
+            background-color: rgb(11, 38, 243);
+        }
+    }
 }
 

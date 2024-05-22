@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+main {
+    
+    width: 93vw; /*margem da direita*/
+    height: 100vh;
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: italic;     
+    color: rgb(12, 255, 162);   
+    text-align: justify;
+    padding-left: 29.5px;
+    padding-right: 0px;
+}
