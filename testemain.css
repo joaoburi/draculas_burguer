@@ -2,13 +2,68 @@
 
 main {
     
-    width: 93vw; /*margem da direita*/
+    width: 96vw; /*margem da direita*/
     height: 100vh;
     font-family: "Prompt", sans-serif;
     font-weight: 700;
     font-style: italic;     
     color: rgb(12, 255, 162);   
     text-align: justify;
-    padding-left: 29.5px;
-    padding-right: 0px;
+    
+}
+
+#atrativos {
+    
+    max-width: 1180px;  
+    position: relative;
+    column-count: 4;
+      
+    top: -20%;
+    left: 50%;
+    
+    transform: translate(-50%, 0%);
+     
+}
+
+#atrativos h3 {  
+    
+    background-color: #FFC107;
+    height: 150px;  
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+#atrativos h3 i {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#atrativos h3 p {
+    text-shadow: 1px 1px 1px black;
+}
+
+
+@media screen and (max-width: 850px) {
+    #atrativos {
+        column-count: 2;
+        row-gap: 30px;
+    }
+
+    #atrativos h3 {
+        height: 100px;
+        
+       
+        font-size: 24px;
+        
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+
 }
