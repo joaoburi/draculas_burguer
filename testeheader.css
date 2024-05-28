@@ -119,13 +119,16 @@ header nav {
 
     @media screen and (max-width: 650px) {
 
-        header, #fundo {    
+        header, #fundo { 
+            /*   
             background-size: 700px;
+            */
             background-size: contain;
             background-position: top;
             background-attachment: scroll;
             background-color: rgb(11, 243, 50);
         }
+
     }
 }
 
