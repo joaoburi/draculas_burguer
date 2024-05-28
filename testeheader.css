@@ -11,6 +11,7 @@ header {
     height: 103px;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 header nav {
