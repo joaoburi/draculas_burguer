@@ -10,7 +10,7 @@ header {
     background-color: black;  
     position: fixed;
     height: 103px;
-    width: 100vw; /* tamanho do menu no celular */
+    width: 100vw; /* %vw tamanho do menu no celular */
     top: 0;
     z-index: 1;
 }
@@ -40,7 +40,7 @@ header nav {
 }
 
 .menu {
-    padding-right: 10px;
+    margin-right: 30px;
 }
 
 .menu ul {
@@ -127,7 +127,7 @@ header nav {
             background-size: contain;
             background-position: top;
             background-attachment: scroll;
-            background-color: rgb(228, 156, 29);
+            background-color: black;
         }
 
     }
