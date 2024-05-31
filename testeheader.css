@@ -2,8 +2,7 @@
 
 
 body {
-    padding-top: 103px;
-    
+    padding-top: 103px;   
 }
 
 header {
@@ -11,7 +10,7 @@ header {
     background-color: black;  
     position: fixed;
     height: 103px;
-    width: 100vw;
+    width: 100vw; /* tamanho do menu no celular */
     top: 0;
     z-index: 1;
 }
@@ -128,7 +127,7 @@ header nav {
             background-size: contain;
             background-position: top;
             background-attachment: scroll;
-            background-color: rgb(249, 13, 174);
+            background-color: rgb(228, 156, 29);
         }
 
     }

@@ -32,10 +32,11 @@ main, footer {
     background-image: url(imagens/pexels1.jpg);
     background-position: center right;
     background-size: cover;
+    
     background-attachment: fixed;
     background-repeat: no-repeat;  
     
-    display: flex;
+    /* display: flex; */
     
 }
 
@@ -49,6 +50,6 @@ main, footer {
 @media screen and (max-width: 650px) {
 
     ::-webkit-scrollbar {
-        width: 0px;
+        
     }
 }
