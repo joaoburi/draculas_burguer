@@ -28,8 +28,7 @@ header nav {
     1px #8b0000;     
 }
 
-.nome {
-    
+.nome { 
     font-size: 15px;    
     color: #8b0000;
     padding-left: 10px;
@@ -120,10 +119,8 @@ header nav {
 
     @media screen and (max-width: 650px) {
 
-        header, #fundo { 
-            
+        header, #fundo {           
             background-size: 700px;
-            
             background-size: contain;
             background-position: top;
             background-attachment: scroll;
