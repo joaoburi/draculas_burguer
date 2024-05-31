@@ -46,4 +46,9 @@ main, footer {
     color: white;
 }
 
+@media screen and (max-width: 650px) {
 
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+}

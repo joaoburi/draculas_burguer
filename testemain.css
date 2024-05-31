@@ -65,12 +65,6 @@ main {
 @media screen and (max-width: 650px) {
 
     #atrativos {
-        column-count: 2;
-        
-        
-    }
-
-    #atrativos h3 {
-        
+        column-count: 2;            
     }
 }

@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
+
 body {
     padding-top: 103px;
+    
 }
 
 header {
@@ -9,7 +11,7 @@ header {
     background-color: black;  
     position: fixed;
     height: 103px;
-    width: 100%;
+    width: 100vw;
     top: 0;
     z-index: 1;
 }
@@ -120,13 +122,13 @@ header nav {
     @media screen and (max-width: 650px) {
 
         header, #fundo { 
-            /*   
+            
             background-size: 700px;
-            */
+            
             background-size: contain;
             background-position: top;
             background-attachment: scroll;
-            background-color: rgb(8, 201, 140);
+            background-color: rgb(249, 13, 174);
         }
 
     }
