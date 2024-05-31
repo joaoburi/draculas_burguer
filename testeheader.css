@@ -120,9 +120,9 @@ header nav {
     @media screen and (max-width: 650px) {
 
         header, #fundo { 
-            /*   
+            width: 100%;
             background-size: 700px;
-            */
+            
             background-size: contain;
             background-position: top;
             background-attachment: scroll;
