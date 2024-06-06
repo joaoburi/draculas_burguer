@@ -12,9 +12,10 @@ main {
     max-width: 1180px;  
     position: relative;
     column-count: 4;    
-    top: -20%;
+    top: -30%;
     left: 50%;    
-    transform: translate(-50%, 0%);     
+    transform: translate(-50%, 0%); 
+ 
 }
 
 #atrativos h3 {  
@@ -24,14 +25,15 @@ main {
     height: 150px;  
     text-align: center;
     font-size: 24px;
-    padding: 20px;
+    padding: 20px 0px;
+    margin: 0px -3px;
     border-radius: 5px;    
 }
 
 #atrativos h3 i {
     font-size: 40px;
     padding-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 25px;
     text-shadow: 1px 1px 1px black;
 }
 

@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(239, 45, 45);
     color: white;    
 }
 
@@ -25,7 +25,7 @@ main, footer {
 #imagem-fundo {    
     width: 100%;
     margin: 0 auto;
-    height: 110vh;    
+    height: 100vh;  /* tamanho da primeira parte */  
     background-image: url(imagens/pexels1.jpg);
     background-position: center right;
     background-size: cover;    
@@ -38,4 +38,11 @@ main, footer {
     padding: 250px 150px;   
     text-shadow: 1px 1px 1px black;
     color: white;
+}
+
+#wave {
+    position: relative;
+    top: 5%;
+        
+    transform: translate(0%, 0%); 
 }
