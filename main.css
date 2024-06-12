@@ -42,6 +42,18 @@ main {
 }
 
 
+#texto {
+    
+    background-color: rgb(1, 74, 138);
+    
+}
+
+#chef {
+    width: 500px;
+    
+}
+
+
 @media screen and (max-width: 850px) {   
 
     #atrativos {

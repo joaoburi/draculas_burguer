@@ -22,6 +22,10 @@ main, footer {
     padding: 0px 10px;
 }
 
+main {
+    margin-bottom: 70%; /* Separar o main do footer */
+}
+
 #imagem-fundo {    
     width: 100%;
     margin: 0 auto;
