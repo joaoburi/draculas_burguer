@@ -42,17 +42,30 @@ main {
 }
 
 
+
+#sobre {
+    background-color: chartreuse;
+}
+
 #texto {
-    
-    background-color: rgb(1, 74, 138);
-    
+    float: left;
+    height: 80%;
+    width: 68%;
+    background-color: blue;
 }
 
 #chef {
-    width: 500px;
     
+    float: right;
+    width: 30%;
+    background-color: blueviolet;
 }
 
+
+#cardapio {
+    margin-top: 80%;
+    background-color: #FFC107;
+}
 
 @media screen and (max-width: 850px) {   
 
