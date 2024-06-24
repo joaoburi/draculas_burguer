@@ -1,19 +1,20 @@
 @charset "UTF-8";
 
 main {        
-    height: 100vh;
+    height: 100%;
     font-family: "Prompt", sans-serif;
     font-weight: 700;
     font-style: italic;      
-    text-align: justify;   
+     
 }
 
-#atrativos {    
+#atrativos {  
+      
     max-width: 1180px;  
     position: relative;
     column-count: 4;    
-    top: -30%;
-    left: 50%;    
+    top: -80px;
+    left: 50%;  
     transform: translate(-50%, 0%); 
  
 }
@@ -44,21 +45,36 @@ main {
 
 
 #sobre {
-    background-color: chartreuse;
+    
+    
+    margin-right: 20px;
+    
+    
+}
+
+#sobre h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 #texto {
+    
     float: left;
     height: 80%;
-    width: 68%;
-    background-color: blue;
+    width: 48.5%;
+    
+}
+
+#texto p {
+    padding: 15px 0px;
+    
 }
 
 #chef {
     
     float: right;
-    width: 30%;
-    background-color: blueviolet;
+    max-width: 400px;
+    
 }
 
 
@@ -70,11 +86,48 @@ main {
 @media screen and (max-width: 850px) {   
 
     #atrativos {
-        column-count: 2;             
+        column-count: 2;  
+        top: -180px;           
     }
 
     #atrativos h3 {
         margin-bottom: 20px;
+    }
+
+    #sobre {   
+        background-color: chartreuse;
+        margin-right: 0px;       
+    }
+    
+    #sobre h2 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    
+    #texto {
+        
+        float: left;
+        height: 80%;
+        width: 100%;
+        
+    }
+    
+    #texto p {
+        padding: 15px 0px;
+        background-color: blue;
+    }
+    
+    #chef {
+        
+        float: none;
+        max-width: 400px;
+        background-color: blueviolet;
+    }
+    
+    
+    #cardapio {
+        margin-top: 80%;
+        background-color: #FFC107;
     }
 }
 
