@@ -54,7 +54,7 @@ main {
 
 #sobre h2 {
     font-size: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 #texto {
@@ -70,7 +70,11 @@ main {
     
 }
 
-#chef {
+#imagem {
+    
+}
+
+#imagem #chef {
     
     float: right;
     max-width: 400px;
@@ -105,11 +109,10 @@ main {
     }
     
     #texto {
-        
+       
         float: left;
         height: 80%;
-        width: 100%;
-        
+        width: 100%;     
     }
     
     #texto p {
@@ -117,9 +120,12 @@ main {
         background-color: blue;
     }
     
-    #chef {
-        
-        float: none;
+    #imagem {
+        text-align: center;
+    }
+
+    #imagem #chef {        
+        float: none;        
         max-width: 400px;
         background-color: blueviolet;
     }
