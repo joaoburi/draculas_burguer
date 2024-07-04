@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    font-family: "Lobster Two", sans-serif;
+    font-family: var(--fonte1);
     background-color: black;  
     position: fixed;
     height: 103px;

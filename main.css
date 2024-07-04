@@ -2,7 +2,7 @@
 
 main {        
     height: 100%;
-    font-family: "Prompt", sans-serif;
+    font-family: var(--fonte2);
     font-weight: 700;
     font-style: italic;      
      
@@ -81,9 +81,42 @@ main {
     
 }
 
+#destaques {
+    
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonte3);
+    color: #FFC107;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.rank {
+    
+    font-size: 40px;
+}
+
+#top {
+    
+    width: 130px;
+    text-align: center;
+}
+
+#feedback {        
+    
+    width: 150px;
+    text-align: center;
+}
+
+#premios {
+    
+    width: 80px;
+    text-align: center;
+}
+
 
 #cardapio {
-    margin-top: 80%;
+    margin-top: 82%;
     background-color: #FFC107;
 }
 
