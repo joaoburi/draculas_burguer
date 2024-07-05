@@ -2,9 +2,9 @@
 
 main {        
     height: 100%;
-    font-family: var(--fonte2);
-    font-weight: 700;
-    font-style: italic;      
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    
      
 }
 
@@ -27,7 +27,7 @@ main {
     text-align: center;
     font-size: 24px;
     padding: 20px 0px;
-    margin: 0px -3px;
+    margin: 0px 0px;
     border-radius: 5px;    
 }
 
@@ -131,7 +131,7 @@ main {
 
     #atrativos {
         column-count: 2;  
-        top: -180px;           
+        top: -50px;           
     }
 
     #atrativos h3 {
@@ -139,7 +139,7 @@ main {
     }
 
     #sobre {   
-        background-color: chartreuse;
+        
         margin-right: 0px;       
     }
     
@@ -152,12 +152,13 @@ main {
        
         float: left;
         height: 80%;
-        width: 100%;     
+        width: 100%;
+            
     }
     
     #texto p {
         padding: 15px 0px;
-        background-color: blue;
+        
     }
     
     #imagem {
@@ -166,8 +167,53 @@ main {
 
     #imagem #chef {        
         float: none;        
-        max-width: 400px;
+        max-width: 460px;
         background-color: blueviolet;
+    }
+    
+    #nome {
+        padding-top: 10px;
+    }
+      
+    #nome-chef {
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;
+        font-family: var(--fonte4);
+    }
+
+    #destaques {
+    
+        display: flex;
+        justify-content: space-evenly;
+        font-family: var(--fonte3);
+        color: #FFC107;
+        padding-right: 30px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+    .rank {
+        
+        font-size: 40px;
+    }
+    
+    #top {
+        
+        width: 130px;
+        text-align: center;
+    }
+    
+    #feedback {        
+        
+        width: 150px;
+        text-align: center;
+    }
+    
+    #premios {
+        
+        width: 80px;
+        text-align: center;
     }
     
     
