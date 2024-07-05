@@ -27,7 +27,6 @@ main {
     text-align: center;
     font-size: 24px;
     padding: 20px 0px;
-    margin: 0px 0px;
     border-radius: 5px;    
 }
 
@@ -123,7 +122,7 @@ main {
 
 
 #cardapio {
-    margin-top: 82%;
+    margin-top: 650px;
     background-color: #FFC107;
 }
 
@@ -218,8 +217,8 @@ main {
     
     
     #cardapio {
-        margin-top: 80%;
-        background-color: #FFC107;
+        margin-top: 650px;
+        
     }
 }
 
@@ -228,5 +227,10 @@ main {
 
     #atrativos {
         column-count: 2;            
+    }
+
+    #cardapio {
+        margin-top: 50px;
+        
     }
 }

@@ -32,9 +32,7 @@ main, footer {
     padding: 0px 10px;
 }
 
-footer {
-    background-color: cornflowerblue;
-}
+
 
 main {
     margin-bottom: 70%; /* Separar o main do footer */
