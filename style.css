@@ -39,9 +39,7 @@ main {
 }
 
 #imagem-fundo {    
-    width: 100%;
-    margin: 0 auto;
-    height: 100vh;  /* tamanho da primeira parte */  
+    
     background-image: url(imagens/pexels1.jpg);
     background-position: center right;
     background-size: cover;    
@@ -53,7 +51,7 @@ main {
     font-size: 40px;
     padding: 250px 150px;   
     text-shadow: 1px 1px 1px black;
-    color: white;
+    color: rgb(53, 222, 50);
 }
 
 #wave {
