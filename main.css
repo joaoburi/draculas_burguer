@@ -166,7 +166,7 @@ main {
 
     #imagem #chef {        
         float: none;        
-        max-width: 460px;
+        min-width: 460px;
         background-color: blueviolet;
     }
     
