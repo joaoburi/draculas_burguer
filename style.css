@@ -41,7 +41,7 @@ main {
 #imagem-fundo {    
     
     background-image: url(imagens/pexels1.jpg);
-    background-position: center right;
+    background-position: right;
     background-size: cover;    
     background-attachment: fixed;
     background-repeat: no-repeat;          
@@ -51,7 +51,7 @@ main {
     font-size: 40px;
     padding: 250px 150px;   
     text-shadow: 1px 1px 1px black;
-    color: rgb(53, 222, 50);
+    color: rgb(255, 255, 255);
 }
 
 #wave {
