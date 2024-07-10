@@ -221,6 +221,10 @@ main {
         margin-top: 650px;
         
     }
+
+    #cardapio img {
+        width: 50px;
+    }
 }
 
 
