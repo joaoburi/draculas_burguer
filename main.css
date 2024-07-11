@@ -3,24 +3,19 @@
 main {        
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px; 
-    
-     
+    font-size: 16px;          
 }
 
-#atrativos {  
-      
+#atrativos {        
     max-width: 1180px;  
     position: relative;
     column-count: 4;    
     top: -80px;
     left: 50%;  
-    transform: translate(-50%, 0%); 
- 
+    transform: translate(-50%, 0%);  
 }
 
-#atrativos h3 {  
-    
+#atrativos h3 {      
     background-color: #FFC107;
     color: white;
     height: 150px;  
@@ -41,43 +36,28 @@ main {
     text-shadow: 1px 1px 1px black;
 }
 
-
-
-#sobre {
-    
-    
-    margin-right: 20px;
-    
-    
+#sobre {        
+    margin-right: 20px;        
 }
 
 #sobre h2 {
     font-size: 40px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;   
 }
 
-#texto {
-    
+#texto {    
     float: left;
     height: 80%;
-    width: 48.5%;
-    
+    width: 48.5%;    
 }
 
 #texto p {
-    padding: 15px 0px;
-    
+    margin: 15px 0px;        
 }
 
-#imagem {
-    
-}
-
-#imagem #chef {
-    
+#imagem #chef {    
     float: right;
-    max-width: 400px;
-    
+    max-width: 400px;    
 }
 
 #nome-chef {
@@ -87,43 +67,60 @@ main {
     font-family: var(--fonte4);
 }
 
-#destaques {
-    
+#destaques {    
     display: flex;
     justify-content: space-between;
     font-family: var(--fonte3);
     color: #FFC107;
-    padding-right: 30px;
-    padding-top: 20px;
+    margin-right: 30px;
+    margin-top: 20px;   
 }
 
-.rank {
-    
+.rank {    
     font-size: 40px;
 }
 
-#top {
-    
+#top {    
     width: 130px;
     text-align: center;
 }
 
-#feedback {        
-    
+#feedback {           
     width: 150px;
     text-align: center;
 }
 
-#premios {
-    
+#premios {    
     width: 80px;
     text-align: center;
 }
 
+/* CARDAPIO */
 
 #cardapio {
     margin-top: 650px;
-    background-color: #FFC107;
+    background-color: rgb(143, 47, 47);
+}
+
+#cardapio .burguer {
+    width: 125px;
+}
+
+.pratos {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+#avaliacoes {
+    margin-top: 200px;
+    background-color: aqua;
+    color: blueviolet;
 }
 
 @media screen and (max-width: 850px) {   
@@ -222,9 +219,7 @@ main {
         
     }
 
-    #cardapio img {
-        width: 50px;
-    }
+    
 }
 
 
