@@ -97,9 +97,22 @@ main {
 
 /* CARDAPIO */
 
-#cardapio {
+#header-cardapio {
     margin-top: 650px;
+}
+
+#menu {
+    
+    background-color: crimson;
+   
+}
+
+#cardapio {
+    
     background-color: rgb(143, 47, 47);
+    column-count: 2;
+    
+    
 }
 
 #cardapio .burguer {
@@ -107,7 +120,11 @@ main {
 }
 
 .pratos {
+    
+    background-color: chartreuse;
     display: flex;
+    margin-bottom: 15px;
+    
 }
 
 
@@ -213,9 +230,18 @@ main {
         text-align: center;
     }
     
+    #header-cardapio {
+        margin-top: 350px;
+    }
     
+    #menu {
+        
+        background-color: crimson;
+       
+    }
+
     #cardapio {
-        margin-top: 650px;
+        column-count: 1;
         
     }
 
