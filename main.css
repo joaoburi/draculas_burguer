@@ -102,13 +102,13 @@ main {
 }
 
 #menu {
-    
+
     background-color: crimson;
-   
+
 }
 
 #cardapio {
-    
+    margin-right: 20px;
     background-color: rgb(143, 47, 47);
     column-count: 2;
     
@@ -119,12 +119,22 @@ main {
     width: 125px;
 }
 
-.pratos {
+#cardapio .pratos {
     
-    background-color: chartreuse;
+    
     display: flex;
-    margin-bottom: 15px;
-    
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+#cardapio .pratos .conteudo {
+    background-color: chartreuse;
+    margin-left: 10px;
+}
+
+#cardapio .pratos h3 {
+    background-color: #FFC107;
+    float: right;
 }
 
 
