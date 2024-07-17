@@ -117,25 +117,51 @@ main {
 
 #cardapio .burguer {
     width: 125px;
+    height: 125px;
 }
 
 #cardapio .pratos {
     
     
     display: flex;
+    
+    height: 200px;
+
     margin-left: 20px;
     margin-bottom: 40px;
+    
 }
 
 #cardapio .pratos .conteudo {
+    display: flexbox;
+    position: relative;
     background-color: chartreuse;
     margin-left: 10px;
+    width: 100%;
+    
+    
+}
+
+#cardapio .pratos h2 {
+    
+    font-size:20px;
+    float: left;
+    
+}
+
+#cardapio .pratos p {
+    position: absolute;
+    background-color: aqua;
+    top: 25%;
+    text-indent: 20px;
 }
 
 #cardapio .pratos h3 {
+    font-size: 18px;
     background-color: #FFC107;
-    float: right;
+    float: calc();
 }
+    
 
 
 
