@@ -103,13 +103,13 @@ main {
 
 #menu {
 
-    background-color: crimson;
+
 
 }
 
 #cardapio {
     margin-right: 20px;
-    background-color: rgb(143, 47, 47);
+
     column-count: 2;
     
     
@@ -118,6 +118,7 @@ main {
 #cardapio .burguer {
     width: 125px;
     height: 125px;
+    
 }
 
 #cardapio .pratos {
@@ -133,14 +134,21 @@ main {
 }
 
 #cardapio .pratos .conteudo {
-    
-    background-color: chartreuse;
+
     margin-left: 10px;    
 }
 
 #cardapio .pratos .conteudo .nome-preco {
     display: grid;
     grid-template-columns: 1fr 100px;
+}
+
+#cardapio .pratos .conteudo
+.linha-pontilhada {
+    width: 100%;
+    outline: 1px dashed white;
+
+    
 }
 
 #cardapio .pratos h2 {   
@@ -151,13 +159,13 @@ main {
 #cardapio .pratos h3 {
     
     font-size: 18px;
-    background-color: #FFC107;   
+  
     text-align: right;
 }
 
 #cardapio .pratos p {
     
-    background-color: aqua;
+
     
     text-indent: 20px;
 }
