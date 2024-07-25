@@ -19,10 +19,17 @@
     margin: 0px;
     padding: 0px;
 }
+/* 
+branco: #F1F6F9 #d8d3d8 #ffedff #ffeaff
 
+
+preto: #0d0d0d #0c0c0c #040404 #080808 #0B0B0B #0F0F0F
+
+*/
 body {
-    background-color: black;
-    color: white;    
+    background-color: #040404;
+    
+    color: #F1F6F9;    
 }
 
 main, footer {
