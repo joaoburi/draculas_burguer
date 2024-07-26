@@ -98,31 +98,36 @@ main {
 
 #header-cardapio {
     margin-top: 650px;
-    display: flex;
+    
 }
 
 #header-cardapio #menu {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0px 100px;
+    margin-bottom: 40px;
+    justify-content: center;
+    
+    
 }
 
 #header-cardapio h1 {
     color: #8b0000;
-    font-size: 46px;
+    font-size: 36px;
     margin-bottom: 40px;
     margin-right: 40px;
     
 }
 
-@media (max-width: 1065px) {
-    #header-cardapio {
-        display: block;
-    }
-
+@media (max-width: 1100px) {
+    
     #header-cardapio #menu {
-        flex-wrap: wrap;
-        margin-left: 100px;
-        margin-top: -20px;
-        margin-bottom: 40px;
+        
+        justify-content: left;
+        
+        
+        
+        
     }
 }
 
@@ -162,9 +167,8 @@ main {
     text-align: justify;  
     font-size: 14px; 
     display: flex;    
-    height: 200px;
     margin-left: 20px;
-    margin-bottom: 40px;    
+    margin-bottom: 20px;    
 }
 
 #cardapio .pratos .conteudo {
@@ -195,7 +199,7 @@ main {
 
 #cardapio .pratos .conteudo p {  
     font-size: 14px;
-    background-color: rgb(13, 124, 31);
+    
 }
 
 #cardapio .pratos .conteudo .frase-de-efeito {
@@ -216,16 +220,6 @@ main {
     }    
 }
 
-
-
-
-
-
-#avaliacoes {
-    margin-top: 200px;
-    background-color: aqua;
-    color: blueviolet;
-}
 
 @media screen and (max-width: 850px) {   
 
@@ -323,13 +317,18 @@ main {
     
     #menu {
         
-        background-color: crimson;
+        
        
     }
 
     #cardapio {
         column-count: 1;
         
+    }
+
+    #header-cardapio #menu {
+        margin: 0px 0px;
+        margin-bottom: 40px;
     }
 
     
@@ -346,4 +345,12 @@ main {
         margin-top: 50px;
         
     }
+
+    
+}
+
+#avaliacoes {
+    margin-top: 200px;
+    background-color: aqua;
+    color: blueviolet;
 }
