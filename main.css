@@ -98,6 +98,17 @@ main {
 
 #header-cardapio {
     margin-top: 650px;
+}
+
+
+
+#header-cardapio h1 {
+    width: 600px;
+    color: #8b0000;
+    font-size: 36px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 1px #8b0000;
     
 }
 
@@ -106,28 +117,12 @@ main {
     flex-wrap: wrap;
     margin: 0px 100px;
     margin-bottom: 40px;
-    justify-content: center;
-    
-    
+    justify-content: center;  
 }
 
-#header-cardapio h1 {
-    color: #8b0000;
-    font-size: 36px;
-    margin-bottom: 40px;
-    margin-right: 40px;
-    
-}
-
-@media (max-width: 1100px) {
-    
-    #header-cardapio #menu {
-        
-        justify-content: left;
-        
-        
-        
-        
+@media (max-width: 1100px) {   
+    #header-cardapio #menu {       
+        justify-content: left;        
     }
 }
 
@@ -147,9 +142,10 @@ main {
 
 #header-cardapio h2:hover {
     transition-duration: 0.2s;
-    border: 1px solid #8b0000;
-    background-color: #8b0000;
-    color: #040404;
+    border: 1px solid #FFC107;
+    background-color: #040404;
+    color: #FFC107;
+    text-shadow: 1px 1px 1px #8b0000;
 }
 
 #cardapio {
@@ -165,7 +161,7 @@ main {
 
 #cardapio .pratos {   
     text-align: justify;  
-    font-size: 14px; 
+    
     display: flex;    
     margin-left: 20px;
     margin-bottom: 20px;    
@@ -181,12 +177,13 @@ main {
 }
 
 #cardapio .pratos .conteudo .nome-preco h2 {   
-    font-size: 18px;
+    font-size: 22px;
 }
 
 #cardapio .pratos .conteudo .nome-preco h3 {    
-    font-size: 16px;
+    font-size: 18px;
     text-align: right;
+    margin-top: 3.5px;
 }
 
 #cardapio .pratos .conteudo
@@ -198,7 +195,6 @@ main {
 }
 
 #cardapio .pratos .conteudo p {  
-    font-size: 14px;
     
 }
 
@@ -209,7 +205,7 @@ main {
     font-family: var(--fonte4);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
     #cardapio .pratos .conteudo .nome-preco {
 
         grid-template-columns: 1fr;
@@ -312,13 +308,12 @@ main {
     }
     
     #header-cardapio {
-        margin-top: 350px;
+        margin-top: 50px;
     }
     
-    #menu {
-        
-        
-       
+    #header-cardapio #menu {
+        margin: 0px 0px;
+        margin-bottom: 40px;
     }
 
     #cardapio {
@@ -326,10 +321,11 @@ main {
         
     }
 
-    #header-cardapio #menu {
-        margin: 0px 0px;
-        margin-bottom: 40px;
+    #cardapio .pratos .conteudo .nome-preco {
+        display: grid;
+        grid-template-columns: 1fr 100px;
     }
+
 
     
 }
@@ -347,6 +343,17 @@ main {
     }
 
     
+    
+}
+
+@media screen and (max-width: 560px) {
+    #cardapio .pratos .conteudo .nome-preco {
+        grid-template-columns: 1fr;
+    }
+
+    #cardapio .pratos .conteudo .nome-preco h3 {
+        text-align: left;
+    }  
 }
 
 #avaliacoes {
