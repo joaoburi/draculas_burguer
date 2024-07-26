@@ -17,7 +17,6 @@ main {
 
 #atrativos h3 {      
     background-color: #FFC107;
-    color: white;
     height: 150px;  
     text-align: center;
     font-size: 24px;
@@ -29,11 +28,11 @@ main {
     font-size: 40px;
     padding-bottom: 20px;
     padding-top: 25px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px #040404;
 }
 
 #atrativos h3 p {
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px #040404;
 }
 
 #sobre {        
@@ -145,7 +144,7 @@ main {
     transition-duration: 0.2s;
     border: 1px solid #8b0000;
     background-color: #8b0000;
-    color: black;
+    color: #040404;
 }
 
 #cardapio {
@@ -196,6 +195,7 @@ main {
 
 #cardapio .pratos .conteudo p {  
     font-size: 14px;
+    background-color: rgb(13, 124, 31);
 }
 
 #cardapio .pratos .conteudo .frase-de-efeito {

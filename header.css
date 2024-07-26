@@ -7,7 +7,7 @@ body {
 
 header {
     font-family: var(--fonte1);
-    background-color: black;  
+    background-color: #040404;  
     position: fixed;
     height: 103px;
     width: 100vw; /* %vw tamanho do menu no celular */
@@ -124,7 +124,7 @@ header nav {
             background-size: contain;
             background-position: top;
             background-attachment: scroll;
-            background-color: black;
+            background-color: #040404;
         }
 
     }
