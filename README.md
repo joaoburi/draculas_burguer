@@ -1,2 +1,3 @@
 # draculas_burguer
- Landing Page
+ Site em desenvolvimento...
+ https://joaoburi.github.io/draculas_burguer/
