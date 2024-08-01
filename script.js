@@ -8,3 +8,33 @@ function menuAparecer() {
         document.querySelector('.icone').src = "imagens/icone3.png";
     }
 }
+
+
+function t1() {
+    let burgue1 = document.querySelector('#teste1')
+    const fazia = document.querySelector('#cardapio1')
+    if (fazia.classList.contains('aparece')) {
+        fazia.classList.remove('aparece');
+
+    } else {
+        fazia.classList.add('aparece');
+    }
+}
+
+/*
+const cardapio = document.querySelector('#cardapio');
+const btnTeste = document.getElementById('teste');
+
+btnTeste.addEventListener('click', () => {
+    const items = cardapio.querySelectorAll('.pratos');
+    const itemsArray = Array.from(items);
+
+    
+    itemsArray.sort(() => Math.random() - 0.5);
+
+
+    cardapio.innerHTML = '';
+    itemsArray.forEach(item => cardapio.appendChild(item));
+
+});
+*/
