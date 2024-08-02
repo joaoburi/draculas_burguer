@@ -11,6 +11,26 @@ function menuAparecer() {
 
 
 
+function mostrarCardapio1() {
+    let cardapio = document.querySelector('#card1')
+    if (cardapio.classList.contains('aparece')) {
+        cardapio.classList.remove('aparece');
+        
+    } else {
+        cardapio.classList.add('aparece');
+        
+    }
+}
+
+
+
+
+/*
+
+https://www.youtube.com/watch?v=1w5SNKwBDKo
+
+
+
 function mostrarDiv(card) {
     // Esconde todas as divs
     const divs = document.querySelectorAll('div');
@@ -22,9 +42,6 @@ function mostrarDiv(card) {
     const div = document.getElementById('div' + card);
     div.style.display = 'block';
   }
-
-
-/*
 
 function mostrarCardapio() {
     let burgue1 = document.querySelector('#teste1')

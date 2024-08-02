@@ -154,30 +154,30 @@ main {
     display: block;
 }
 
-#cardapio1 {
+#card1 {
     display: none;
     background-color: chartreuse;
 }
 
-#cardapio2 {
+#card2 {
     display: none;
 }
 
-#cardapio3 {
+#card3 {
     display: none;
     background-color: aquamarine;
 }
 
-#cardapio4 {
+#card4 {
     display: none;
 }
 
-#cardapio5 {
+#card5 {
     display: none;
     background-color: blueviolet;
 }
 
-#cardapio6 {
+#card6 {
     display: none;
 }
 
