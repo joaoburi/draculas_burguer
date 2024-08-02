@@ -155,30 +155,30 @@ main {
 }
 
 #cardapio1 {
-    
+    display: none;
     background-color: chartreuse;
 }
 
 #cardapio2 {
-    
+    display: none;
 }
 
 #cardapio3 {
-    
+    display: none;
     background-color: aquamarine;
 }
 
 #cardapio4 {
-    
+    display: none;
 }
 
 #cardapio5 {
-    
+    display: none;
     background-color: blueviolet;
 }
 
 #cardapio6 {
-    
+    display: none;
 }
 
 .cardapio {

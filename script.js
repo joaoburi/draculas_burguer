@@ -10,7 +10,23 @@ function menuAparecer() {
 }
 
 
-function t1() {
+
+function mostrarDiv(card) {
+    // Esconde todas as divs
+    const divs = document.querySelectorAll('div');
+    divs.forEach(div => {
+      div.style.display = 'none';
+    });
+
+    // Mostra a div específica
+    const div = document.getElementById('div' + card);
+    div.style.display = 'block';
+  }
+
+
+/*
+
+function mostrarCardapio() {
     let burgue1 = document.querySelector('#teste1')
     const fazia = document.querySelector('#cardapio1')
     if (fazia.classList.contains('aparece')) {
