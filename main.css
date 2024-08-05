@@ -155,36 +155,43 @@ main {
 }
 
 #card1 {
-    display: none;
+    
     background-color: chartreuse;
 }
 
 #card2 {
-    display: none;
+    
 }
 
 #card3 {
-    display: none;
+    
     background-color: aquamarine;
 }
 
 #card4 {
-    display: none;
+    
 }
 
 #card5 {
-    display: none;
+    
     background-color: blueviolet;
 }
 
 #card6 {
-    display: none;
+    
 }
 
 .cardapio {
     font-family: var(--fonte5);
     margin-right: 20px;
     column-count: 2;
+}
+
+.cardapio {
+    display: none; /* Inicialmente, todos os conteúdos estão ocultos */
+}
+.cardapio .ativo {
+    display: block;
 }
 
 .cardapio .burguer {

@@ -10,6 +10,47 @@ function menuAparecer() {
 }
 
 
+var btn1 = document.querySelector('#btn1')
+var card1 = document.querySelector('#card1')
+
+btn1.addEventListener('click', function() {
+    if(card1.style.display === 'block') {
+        card1.style.display = 'none';
+    } else {
+        card1.style.display = 'block';
+    }
+});
+
+
+const botoes = document.querySelectorAll('button');
+const conteudos = document.querySelectorAll('.cardapio');
+
+botoes.forEach(botao => {
+    botao.addEventListener('click', () => {
+        const idConteudo = botao.dataset.cardapio;
+        const conteudoAtivo = document.getElementById(idConteudo);
+
+        // Esconde todos os conteúdos
+        conteudos.forEach(cardapio => cardapio.classList.remove('ativo'));
+
+        // Exibe o conteúdo selecionado
+        conteudoAtivo.classList.add('ativo');
+    });
+});
+
+
+/*
+var btn2 = document.querySelector('#btn2')
+var card2 = document.querySelector('#card2')
+
+btn2.addEventListener('click', function() {
+    if(card2.style.display === 'block') {
+        card2.style.display = 'none';
+    } else {
+        card2.style.display = 'block';
+    }
+});
+
 
 function mostrarCardapio1() {
     let cardapio = document.querySelector('#card1')
@@ -25,7 +66,7 @@ function mostrarCardapio1() {
 
 
 
-/*
+
 
 https://www.youtube.com/watch?v=1w5SNKwBDKo
 
