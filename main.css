@@ -124,7 +124,7 @@ main {
     
 }
 
-#header-cardapio h2 {
+#header-cardapio .btn {
     
     
     border: 1px solid ;
@@ -133,12 +133,13 @@ main {
     padding: 10px 15px;
     vertical-align: bottom;
     color: #8b0000;
+    background-color: #040404;
     margin: 0px 5px;
     margin-bottom: 10px;
     font-size: 16px;
 }
 
-#header-cardapio h2:hover {
+#header-cardapio .btn:hover {
     transition-duration: 0.2s;
     border: 1px solid #FFC107;
     background-color: #040404;
@@ -146,61 +147,38 @@ main {
     text-shadow: 1px 1px 1px #8b0000;
 }
 
-#cardapioTeste {
-    
-}
-
-.aparece {
-    display: block;
-}
-
 #card1 {
-    
-    background-color: chartreuse;
+    background-color: #8b0000;
 }
 
 #card2 {
-    
+    background-color: #FFC107;
 }
 
 #card3 {
-    
-    background-color: aquamarine;
+    background-color: aqua;
 }
 
-#card4 {
-    
-}
-
-#card5 {
-    
-    background-color: blueviolet;
-}
-
-#card6 {
-    
-}
-
-.cardapio {
+.content {
     font-family: var(--fonte5);
     margin-right: 20px;
     column-count: 2;
 }
 
-.cardapio {
+.content {
     display: none; /* Inicialmente, todos os conteúdos estão ocultos */
 }
-.cardapio .ativo {
+.content.ativo {
     display: block;
 }
 
-.cardapio .burguer {
+.content .burguer {
     width: 125px;
     height: 125px; 
     margin-top: 5px;   
 }
 
-.cardapio .pratos {   
+.content .pratos {   
     text-align: justify;  
     
     display: flex;    
@@ -208,26 +186,26 @@ main {
     margin-bottom: 20px;    
 }
 
-.cardapio .pratos .conteudo {
+.content .pratos .conteudo {
     margin-left: 10px;    
 }
 
-.cardapio .pratos .conteudo .nome-preco {
+.content .pratos .conteudo .nome-preco {
     display: grid;
     grid-template-columns: 1fr 100px;
 }
 
-.cardapio .pratos .conteudo .nome-preco h2 {   
+.content .pratos .conteudo .nome-preco h2 {   
     font-size: 22px;
 }
 
-.cardapio .pratos .conteudo .nome-preco h3 {    
+.content .pratos .conteudo .nome-preco h3 {    
     font-size: 18px;
     text-align: right;
     margin-top: 3.5px;
 }
 
-.cardapio .pratos .conteudo
+.content .pratos .conteudo
 .linha-pontilhada {
     width: 100%;
     outline: 1px dashed #8b0000;
@@ -235,11 +213,11 @@ main {
     margin-bottom: 20px;   
 }
 
-.cardapio .pratos .conteudo p {  
+.content .pratos .conteudo p {  
     
 }
 
-.cardapio .pratos .conteudo .frase-de-efeito {
+.content .pratos .conteudo .frase-de-efeito {
     color: #FFC107;
     font-weight: normal;
     font-style: normal;
@@ -247,7 +225,7 @@ main {
 }
 
 @media (max-width: 1030px) {
-    .cardapio .pratos .conteudo .nome-preco {
+    .content .pratos .conteudo .nome-preco {
 
         grid-template-columns: 1fr;
     }
@@ -256,7 +234,7 @@ main {
         padding-left: 30px;
     }
 
-    .cardapio .pratos .conteudo .nome-preco h3 {
+    .content .pratos .conteudo .nome-preco h3 {
         text-align: left;
     }    
 
@@ -368,12 +346,12 @@ main {
     }
 
     
-    .cardapio {
+    .content {
         column-count: 1;
         
     }
 
-    .cardapio .pratos .conteudo .nome-preco {
+    .content .pratos .conteudo .nome-preco {
         display: grid;
         grid-template-columns: 1fr 100px;
     } 
@@ -388,11 +366,11 @@ main {
 }
 
 @media screen and (max-width: 560px) {
-    .cardapio .pratos .conteudo .nome-preco {
+    .content .pratos .conteudo .nome-preco {
         grid-template-columns: 1fr;
     }
 
-    .cardapio .pratos .conteudo .nome-preco h3 {
+    .content .pratos .conteudo .nome-preco h3 {
         text-align: left;
     }  
 }

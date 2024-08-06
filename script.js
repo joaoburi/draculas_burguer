@@ -10,34 +10,24 @@ function menuAparecer() {
 }
 
 
-var btn1 = document.querySelector('#btn1')
-var card1 = document.querySelector('#card1')
+const buttons = document.querySelectorAll('.btn');
+const contents = document.querySelectorAll('.content');
 
-btn1.addEventListener('click', function() {
-    if(card1.style.display === 'block') {
-        card1.style.display = 'none';
-    } else {
-        card1.style.display = 'block';
-    }
-});
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const contentId = button.dataset.content;
+        const currentContent = document.getElementById(contentId);
 
+        // Remove a classe 'active' de todos os conteúdos
+        contents.forEach(content => content.classList.remove('ativo'));
 
-const botoes = document.querySelectorAll('button');
-const conteudos = document.querySelectorAll('.cardapio');
-
-botoes.forEach(botao => {
-    botao.addEventListener('click', () => {
-        const idConteudo = botao.dataset.cardapio;
-        const conteudoAtivo = document.getElementById(idConteudo);
-
-        // Esconde todos os conteúdos
-        conteudos.forEach(cardapio => cardapio.classList.remove('ativo'));
-
-        // Exibe o conteúdo selecionado
-        conteudoAtivo.classList.add('ativo');
+        // Adiciona a classe 'active' ao conteúdo clicado
+        currentContent.classList.add('ativo');
     });
 });
 
+// Mostrar o primeiro conteúdo por padrão
+contents[0].classList.add('ativo');
 
 /*
 var btn2 = document.querySelector('#btn2')
