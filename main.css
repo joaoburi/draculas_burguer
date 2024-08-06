@@ -129,7 +129,7 @@ main {
     
     border: 1px solid ;
     border-radius: 5px;
-    height: 20px;
+    height: 40px;
     padding: 10px 15px;
     vertical-align: bottom;
     color: #8b0000;
@@ -147,17 +147,6 @@ main {
     text-shadow: 1px 1px 1px #8b0000;
 }
 
-#card1 {
-    background-color: #8b0000;
-}
-
-#card2 {
-    background-color: #FFC107;
-}
-
-#card3 {
-    background-color: aqua;
-}
 
 .content {
     font-family: var(--fonte5);

@@ -35,7 +35,7 @@
          
      -->
     <header>
-        <nav>
+        <nav id="secao1">
             <div class="nome">
                 <h1>Dracula's</h1>
                 <h1>Burguer <i class="fa-solid fa-burger ico"></i></h1>                                
@@ -43,11 +43,11 @@
         
             <div class="menu">
                 <ul>
-                    <li class="item-menu"><a href="#" class="link-menu">Início</a></li>
-                    <li class="item-menu"><a href="#" class="link-menu">Sobre</a></li>
-                    <li class="item-menu"><a href="#" class="link-menu">Cardápio</a></li>
-                    <li class="item-menu"><a href="#" class="link-menu">Avaliações</a></li>
-                    <li class="item-menu"><a href="#" class="link-menu">Contato</a></li>
+                    <li class="item-menu"><a href="#" data-target="secao1" class="link-menu">Início</a></li>
+                    <li class="item-menu"><a href="#" data-target="secao2" class="link-menu">Sobre</a></li>
+                    <li class="item-menu"><a href="#" data-target="secao3" class="link-menu">Cardápio</a></li>
+                    <li class="item-menu"><a href="#" data-target="secao4" class="link-menu">Avaliações</a></li>
+                    <li class="item-menu"><a href="#" data-target="secao5" class="link-menu">Contato</a></li>
                 </ul>
             </div>
 
@@ -58,11 +58,11 @@
        
         <div class="mobile-menu">
             <ul>
-                <li class="item-menu"><a href="#" class="link-menu">Início</a></li>
-                <li class="item-menu"><a href="#" class="link-menu">Sobre</a></li>
-                <li class="item-menu"><a href="#" class="link-menu">Cardápio</a></li>
-                <li class="item-menu"><a href="#" class="link-menu">Avaliações</a></li>
-                <li class="item-menu"><a href="#" class="link-menu">Contato</a></li>
+                <li class="item-menu"><a href="#secao1" class="link-menu">Início</a></li>
+                <li class="item-menu"><a href="#secao2" class="link-menu">Sobre</a></li>
+                <li class="item-menu"><a href="#secao3" class="link-menu">Cardápio</a></li>
+                <li class="item-menu"><a href="#secao4" class="link-menu">Avaliações</a></li>
+                <li class="item-menu"><a href="#secao5" class="link-menu">Contato</a></li>
             </ul>
         </div>                
     </header>
@@ -98,7 +98,7 @@
             </h3>
         </div>                       
         
-        <aside id="sobre">
+        <aside id="sobre" id="secao2">
                 
             <!--Foto do chefe do lado direito-->        
             <div id="texto">
@@ -142,7 +142,7 @@
         </aside>  
         <!-- Promoção com fundo do produto contido na promoção -->
         <div id="header-cardapio">         
-            <h1>
+            <h1 id="secao3">
                 CARDÁPIO  
             </h1>
 
@@ -274,33 +274,6 @@
         
         <nav id="card2" class="content">
             <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer1.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-        
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer2.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-            <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer3.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
@@ -313,6 +286,7 @@
                     Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
                 </div>
             </div>
+        
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer4.jpg" alt="">
                 <div class="conteudo">
@@ -352,7 +326,6 @@
                     Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
                 </div>
             </div>
-        
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer7.jpg" alt="">
                 <div class="conteudo">
@@ -368,6 +341,33 @@
             </div>
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer8.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+        
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer1.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer2.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
                         <h2>Burguer de Lorem</h2>
@@ -384,59 +384,6 @@
 
         <nav id="card3" class="content">
             <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer1.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-        
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer2.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer3.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer4.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-            <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer5.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
@@ -449,6 +396,7 @@
                     Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
                 </div>
             </div>
+        
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer6.jpg" alt="">
                 <div class="conteudo">
@@ -462,7 +410,6 @@
                     Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
                 </div>
             </div>
-        
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer7.jpg" alt="">
                 <div class="conteudo">
@@ -478,6 +425,59 @@
             </div>
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer8.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer1.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer2.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+        
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer3.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer4.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
                         <h2>Burguer de Lorem</h2>
@@ -494,7 +494,7 @@
 
         <nav id="card4" class="content">
             <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer1.jpg" alt="">
+                <img class="burguer" src="imagens/burguers/burguer7.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
                         <h2>Burguer de Lorem</h2>
@@ -507,6 +507,32 @@
                 </div>
             </div>
         
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer8.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer1.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer2.jpg" alt="">
                 <div class="conteudo">
@@ -546,6 +572,7 @@
                     Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
                 </div>
             </div>
+        
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer5.jpg" alt="">
                 <div class="conteudo">
@@ -561,33 +588,6 @@
             </div>
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer6.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-        
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer7.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer8.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
                         <h2>Burguer de Lorem</h2>
@@ -604,20 +604,6 @@
 
         <nav id="card5" class="content">
             <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer1.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-        
-            <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer2.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
@@ -630,6 +616,7 @@
                     Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
                 </div>
             </div>
+        
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer3.jpg" alt="">
                 <div class="conteudo">
@@ -682,7 +669,6 @@
                     Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
                 </div>
             </div>
-        
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer7.jpg" alt="">
                 <div class="conteudo">
@@ -696,8 +682,22 @@
                     Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
                 </div>
             </div>
+        
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer8.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer1.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
                         <h2>Burguer de Lorem</h2>
@@ -714,6 +714,72 @@
 
         <nav id="card6" class="content">
             <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer4.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+        
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer5.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer6.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer7.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
+                <img class="burguer" src="imagens/burguers/burguer8.jpg" alt="">
+                <div class="conteudo">
+                    <div class="nome-preco">
+                        <h2>Burguer de Lorem</h2>
+                        <h3>R$ 30,00</h3>
+                    </div>
+                    <div class="linha-pontilhada"></div>
+                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
+                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
+                </div>
+            </div>
+            <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer1.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
@@ -742,72 +808,6 @@
             </div>
             <div class="pratos">
                 <img class="burguer" src="imagens/burguers/burguer3.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer4.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer5.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer6.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-        
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer7.jpg" alt="">
-                <div class="conteudo">
-                    <div class="nome-preco">
-                        <h2>Burguer de Lorem</h2>
-                        <h3>R$ 30,00</h3>
-                    </div>
-                    <div class="linha-pontilhada"></div>
-                    <p>Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                    <p class="frase-de-efeito">Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.
-                    Lorem ipsum dolor sit amet  adipisicing elit amet, veniam recusandae.</p>
-                </div>
-            </div>
-            <div class="pratos">
-                <img class="burguer" src="imagens/burguers/burguer8.jpg" alt="">
                 <div class="conteudo">
                     <div class="nome-preco">
                         <h2>Burguer de Lorem</h2>

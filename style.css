@@ -60,7 +60,7 @@ main {
 #imagem-fundo h2 {
     font-size: 40px;
     padding: 250px 150px;   
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px #040404;
     color: rgb(255, 255, 255);
 }
 
