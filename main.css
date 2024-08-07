@@ -36,6 +36,8 @@ main {
     text-shadow: 1px 1px 1px #040404;
 }
 
+/* <-- SOBRE --> */
+
 #sobre {        
     margin-right: 20px;        
 }
@@ -94,44 +96,36 @@ main {
     text-align: center;
 }
 
-/* CARDAPIO */
+/* <-- CARDAPIO --> */
 
 #header-cardapio {
     margin-top: 650px;
     font-family: var(--fonte5);
 }
 
-
-
 #header-cardapio h1 {
-    width: 600px;
     color: #8b0000;
     font-size: 36px;
     margin-bottom: 20px;
     margin-left: 20px;
-    text-shadow: 1px 1px 1px #8b0000;
-    
+    text-shadow: 1px 1px 1px #8b0000;   
 }
 
-#header-cardapio #menu {
+#header-cardapio #cardapio {
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
     margin-bottom: 20px;
     justify-content: center;  
 }
 
-@media (max-width: 920px) {   
-    
-}
-
 #header-cardapio .btn {
-    
-    
+    font-family: var(--fonte5);
     border: 1px solid ;
     border-radius: 5px;
     height: 40px;
-    padding: 10px 15px;
+    width: 100px;
+    padding: 0px 0px;
+    font-size: 70px;
     vertical-align: bottom;
     color: #8b0000;
     background-color: #040404;
@@ -156,8 +150,9 @@ main {
 }
 
 .content {
-    display: none; /* Inicialmente, todos os conteúdos estão ocultos */
+    display: none;
 }
+
 .content.ativo {
     display: block;
 }
@@ -169,15 +164,14 @@ main {
 }
 
 .content .pratos {   
-    text-align: justify;  
-    
+    text-align: justify;      
     display: flex;    
     margin-left: 20px;
     margin-bottom: 20px;    
 }
 
 .content .pratos .conteudo {
-    margin-left: 10px;    
+    margin-left: 10px;  
 }
 
 .content .pratos .conteudo .nome-preco {
@@ -203,16 +197,22 @@ main {
     margin-bottom: 20px;   
 }
 
-.content .pratos .conteudo p {  
-    
-}
-
 .content .pratos .conteudo .frase-de-efeito {
     color: #FFC107;
     font-weight: normal;
     font-style: normal;
     font-family: var(--fonte4);
 }
+
+/* <-- AVALIAÇÕES --> */
+
+#avaliacoes {
+    margin-top: 200px;
+    background-color: aqua;
+    color: blueviolet;
+}
+
+
 
 @media (max-width: 1030px) {
     .content .pratos .conteudo .nome-preco {
@@ -226,12 +226,12 @@ main {
 
     .content .pratos .conteudo .nome-preco h3 {
         text-align: left;
-    }    
-
-    
+    }       
 }
 
-/* TABLET */
+
+/* TABLET -> */
+
 @media screen and (max-width: 850px) {   
 
     #atrativos {
@@ -365,8 +365,3 @@ main {
     }  
 }
 
-#avaliacoes {
-    margin-top: 200px;
-    background-color: aqua;
-    color: blueviolet;
-}
