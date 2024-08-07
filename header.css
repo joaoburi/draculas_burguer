@@ -16,6 +16,7 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
+    
 }
 
 header nav {
@@ -36,6 +37,7 @@ header nav {
     font-size: 15px;    
     color: #8b0000;
     padding-left: 10px;
+    
 }
 
 .ico {
@@ -43,7 +45,7 @@ header nav {
 }
 
 .menu {
-    margin-right: 45px;
+    padding-right: 10px;
 }
 
 .menu ul {
