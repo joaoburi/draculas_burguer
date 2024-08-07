@@ -2,20 +2,24 @@
 
 
 body {
-    padding-top: 103px;   
+    
+    padding-top: 103px;
+    
 }
 
 header {
     font-family: var(--fonte1);
-    background-color: #040404;  
-    position: fixed;
+    background-color: #040404;
     height: 103px;
-    width: 100vw; /* %vw tamanho do menu no celular */
+    position: fixed;
+    width: 100%; /* %vw tamanho do menu no celular */
     top: 0;
-    z-index: 1;
+    left: 0;
+    z-index: 999;
 }
 
 header nav {
+    
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);

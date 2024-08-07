@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
-main {        
+main {      
     height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;          
 }
 
-#atrativos {        
+#atrativos {   
+        
     max-width: 1180px;  
     position: relative;
     column-count: 4;    
