@@ -135,7 +135,7 @@ main {
 }
 
 #header-cardapio .btn:hover {
-    transition-duration: 0.2s;
+    transition-duration: 0.7s;
     border: 1px solid #FFC107;
     background-color: #040404;
     color: #FFC107;
@@ -203,6 +203,8 @@ main {
     font-style: normal;
     font-family: var(--fonte4);
 }
+
+/* <-- Reservas --> */
 
 /* <-- AVALIAÇÕES --> */
 
